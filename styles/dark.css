@@ -5,8 +5,29 @@
 */
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --title-text__color: #db00ff;
+  --text__color: #f1b2ce;
+  --background-color: #000028;
+  --text__background-color: var(--menu-color);
+  --background-color__header: var(--menu-color);
+  --menu-color: #ff0070;
+  --button__hover-color: rgba(255, 0, 112, 0.4);
+  --button__decor: var(--menu-color);
+  --decor-color__rec: var(--menu-color);
+  --back-image: url(../images/cover-image-dark.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-text__color: #db00ff;
+    --text__color: #f1b2ce;
+    --background-color: #000028;
+    --text__background-color: var(--menu-color);
+    --background-color__header: var(--menu-color);
+    --menu-color: #ff0070;
+    --button__hover-color: rgba(255, 0, 112, 0.4);
+    --button__decor: var(--menu-color);
+    --decor-color__rec: var(--menu-color);
+    --back-image: url(../images/cover-image-dark.png);
+  }
 }
