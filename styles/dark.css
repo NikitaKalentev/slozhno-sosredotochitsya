@@ -5,29 +5,27 @@
 */
 
 .page.theme_dark {
-  --title-text__color: #db00ff;
-  --text__color: #f1b2ce;
+  --accent-color: #db00ff;
+  --accent-color-alt: #f1b2ce;
   --background-color: #000028;
-  --text__background-color: var(--menu-color);
-  --background-color__header: var(--menu-color);
-  --menu-color: #ff0070;
-  --button__hover-color: rgba(255, 0, 112, 0.4);
-  --button__decor: var(--menu-color);
-  --decor-color__rec: var(--menu-color);
+  --text-color: #ff0070;
+  --main-color: #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --button-decor: #ff0070;
+  --decor-color-rec: #ff0070;
   --back-image: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --title-text__color: #db00ff;
-    --text__color: #f1b2ce;
+    --accent-color: #db00ff;
+    --accent-color-alt: #f1b2ce;
     --background-color: #000028;
-    --text__background-color: var(--menu-color);
-    --background-color__header: var(--menu-color);
-    --menu-color: #ff0070;
-    --button__hover-color: rgba(255, 0, 112, 0.4);
-    --button__decor: var(--menu-color);
-    --decor-color__rec: var(--menu-color);
+    --text-color: #ff0070;
+    --main-color: #ff0070;
+    --button-hover-color: rgba(255, 0, 112, 0.4);
+    --button-decor: #ff0070;
+    --decor-color-rec: #ff0070;
     --back-image: url(../images/cover-image-dark.png);
   }
 }

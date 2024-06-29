@@ -4,21 +4,20 @@
 */
 
 :root {
-  --title-text__color: #db00ff;
-  --text__color: #f1b2ce;
+  --accent-color: #db00ff;
+  --accent-color-alt: #f1b2ce;
   --background-color: #000028;
-  --text__background-color: var(--menu-color);
-  --background-color__header: var(--menu-color);
-  --menu-color: #ff0070;
-  --button__hover-color: rgba(255, 0, 112, 0.4);
-  --button__decor: var(--menu-color);
-  --decor-color__rec: var(--menu-color);
+  --text-color: var(--main-color);
+  --main-color: #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --button-decor: #ff0070;
+  --decor-color-rec: #ff0070;
   --back-image: url(../images/cover-image-dark.png);
-  --gap-text: 20px;
-  --base-font: "IBM Plex mono";
-  --accent-mobile__page: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --accent-desktop__page: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --text-bold: 700;
+  --gap: 20px;
+  --main-font: "IBM Plex mono";
+  --accent-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --accent-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --bold: 700;
   --line-height: 130%;
   --font-size: 18px;
 }
