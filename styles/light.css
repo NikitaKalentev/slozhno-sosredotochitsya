@@ -16,7 +16,7 @@
   --back-image: url(../images/cover-image-light.png);
 }
 
-@madia (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ffc2e6;
     --accent-color-alt: #353430;
