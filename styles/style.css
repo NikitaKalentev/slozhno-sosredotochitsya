@@ -278,6 +278,7 @@
   .gallery-list {
     display: grid;
     row-gap: 7px;
+  }
 }
 
 @media (min-width: 768px) {
