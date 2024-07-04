@@ -100,7 +100,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid #353430;
+  border-bottom: 1px solid var(--main-color);
   outline: none;
 }
 
@@ -152,12 +152,8 @@
 }
 
 .section-text {
-  margin: 10px 0 20px;
-  line-height: var(--line-height);
-}
-
-.last-section {
   margin: 10px 0 0 0;
+  line-height: var(--line-height);
 }
 
 .accent__link {
@@ -167,12 +163,13 @@
 
 .accent__link:focus,
 .accent__link:focus-visible {
-  outline: 1px solid var(--text-color);
+  outline: 1px solid var(--accent-color-alt);
 }
 
 .accent__link:hover {
   outline: none;
-  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-decoration: underline var(--accent-color-alt);
 }
 
 .section-title {
@@ -318,6 +315,11 @@
     min-height: 117px;
   }
 
+  .gap {
+    display: grid;
+    gap: var(--gap);
+  }
+
   /*section-why*/
 
   .section-why {
@@ -446,11 +448,12 @@
     max-width: 491px;
     min-height: 71px;
   }
-
+  
   .gap {
+    display: grid;
     gap: var(--gap);
   }
-  
+
   /*section-why*/
 
   .section-why {
